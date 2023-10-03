@@ -1,0 +1,241 @@
+project:
+  type: website
+
+website:
+  title: "Devito"
+  image: images/logo.png
+  repo-url: https://github.com/devitocodes/devitocodes.github.io
+  repo-actions: [issue]
+  search: true
+  page-navigation: true
+  reader-mode: true
+
+  twitter-card: 
+    site: "@DevitoCodes"
+
+  page-footer:
+    center:
+      - text: "2016 Copyright (c) Imperial College London and others"
+    right:
+      - icon: twitter
+        href: https://twitter.com/DevitoCodes
+        aria-label: Twitter
+      - icon: github
+        href: https://github.com/devitocodes/devito
+        aria-label: GitHub
+      - icon: envelope-at-fill
+        href: mailto:gerard@devitocodes.com
+      - icon: globe
+        href: https://www.devitocodes.com/
+
+  navbar:
+    logo: images/logo.png
+    collapse-below: lg
+    background: light
+
+    tools:
+      - icon: github
+        menu:
+          - text: DevitoCodes
+            href: https://github.com/devitocodes/
+          - text: Devito
+            href: https://github.com/devitocodes/devito
+      - icon: twitter
+        href: https://twitter.com/DevitoCodes
+      - icon: linkedin
+        href: https://www.linkedin.com/company/devitocodes
+      - icon: envelope-at-fill
+        href: mailto:gerard@devitocodes.com
+      - icon: slack
+        href: https://join.slack.com/t/devitocodes/shared_invite/zt-gtd2yxj9-Y31YKk_7lr9AwfXeL2iMFg
+      - icon: globe
+        href: https://www.devitocodes.com/
+  
+    left:
+      - file: index.qmd
+        text: "Home"
+      - href: download.qmd
+        text: Download
+      - href: tutorials.qmd
+        text: Tutorials
+      - text: "API Reference"
+        href: api/
+      - file: publications.qmd
+        text: "Publications"
+      - file: citing.qmd
+        text: "Cite us"
+      - file: contact.qmd
+        text: "Contact us"
+  
+  sidebar:
+    - id: tuto
+      style: "floating"
+      title: "Tutorials"
+      collapse-level: 1
+      contents:
+          - section: Tutorials
+            href: tutorials.qmd
+            contents:
+              - section: "User API"
+                contents: "examples/userapi/*.ipynb"
+              - section: "Compiler"
+                contents: "examples/compiler/*.ipynb"
+              - section: "Performance tips"
+                contents: "examples/performance/*.ipynb"
+              - section: "Seismic modeling and inversion"
+                contents:
+                  - auto: "examples/seismic/tutorials/*.ipynb"
+                  - auto: "examples/seismic/self_adjoint/*.ipynb"
+                  - "examples/seismic/acoustic/accuracy.ipynb"
+              - section: "CFD"
+                contents: "examples/cfd/*.ipynb"
+              - section: "Finance"
+                contents: "examples/finance/*.ipynb"
+
+    - contents:
+        - api/index.qmd
+        - section: "Types"
+          contents:
+          - text: Dimension
+            href: api/types.dimension.Dimension.qmd
+          - text: ConditionalDimension
+            href: api/types.dimension.ConditionalDimension.qmd
+          - text: SubDimension
+            href: api/types.dimension.SubDimension.qmd
+          - text: Grid
+            href: api/types.grid.Grid.qmd
+          - text: SubDomain
+            href: api/types.grid.SubDomain.qmd
+          - text: Constant
+            href: api/types.constant.Constant.qmd
+          - text: Function
+            href: api/types.dense.Function.qmd
+          - text: TimeFunction
+            href: api/types.dense.TimeFunction.qmd
+          - text: VectorFunction
+            href: api/types.tensor.VectorFunction.qmd
+          - text: VectorTimeFunction
+            href: api/types.tensor.VectorTimeFunction.qmd
+          - text: TensorFunction
+            href: api/types.tensor.TensorFunction.qmd
+          - text: TensorTimeFunction
+            href: api/types.tensor.TensorTimeFunction.qmd
+          - text: SparseFunction
+            href: api/types.sparse.SparseFunction.qmd
+          - text: SparseTimeFunction
+            href: api/types.sparse.SparseTimeFunction.qmd
+          - text: PrecomputedSparseFunction
+            href: api/types.sparse.PrecomputedSparseFunction.qmd
+          - text: PrecomputedSparseTimeFunction
+            href: api/types.sparse.PrecomputedSparseTimeFunction.qmd
+
+        - contents:
+            - text: Operator
+              href: api/core.operator.Operator.qmd
+            - text: Eq
+              href: api/types.equation.Eq.qmd
+            - text: Compiler
+              href: api/arch.compiler.Compiler.qmd
+          section: Operator
+        - contents:
+            - text: div
+              href: api/finite_differences.operators.div.qmd
+            - text: grad
+              href: api/finite_differences.operators.grad.qmd
+            - text: curl
+              href: api/finite_differences.operators.curl.qmd
+            - text: diag
+              href: api/finite_differences.operators.diag.qmd
+            - text: laplace
+              href: api/finite_differences.operators.laplace.qmd
+            - text: Derivative
+              href: api/finite_differences.derivative.Derivative.qmd
+            - text: Coefficient
+              href: api/finite_differences.coefficients.Coefficient.qmd
+            - text: Substitutions
+              href: api/finite_differences.coefficients.Substitutions.qmd
+          section: Finite differences
+        - contents:
+            - text: smooth
+              href: api/builtins.initializers.smooth.qmd
+            - text: initialize_function
+              href: api/builtins.initializers.initialize_function.qmd
+            - text: mmin
+              href: api/builtins.arithmetic.mmin.qmd
+            - text: mmax
+              href: api/builtins.arithmetic.mmax.qmd
+            - text: sum
+              href: api/builtins.arithmetic.sum.qmd
+            - text: norm
+              href: api/builtins.arithmetic.norm.qmd
+          section: Utilities
+      id: api
+
+
+format:
+  html:
+    theme: cosmo
+    css: assets/css/main.scss
+    toc: true
+    link-external-newwindow: True
+    code-copy: true
+    code-fold: false
+    execute: 
+      enabled: false
+  
+quartodoc:
+  style: pkgdown
+  dir: api
+  package: devito
+  renderer:
+    style: markdown
+    display_name: name
+  sections:
+    - title: "devito types"
+      desc: ""
+      contents:
+        - types.dimension.Dimension
+        - types.dimension.ConditionalDimension
+        - types.dimension.SubDimension
+        - types.grid.Grid
+        - types.grid.SubDomain
+        - types.constant.Constant
+        - types.dense.Function
+        - types.dense.TimeFunction
+        - types.tensor.VectorFunction
+        - types.tensor.VectorTimeFunction
+        - types.tensor.TensorFunction
+        - types.tensor.TensorTimeFunction
+        - types.sparse.SparseFunction
+        - types.sparse.SparseTimeFunction
+        - types.sparse.PrecomputedSparseFunction
+        - types.sparse.PrecomputedSparseTimeFunction
+
+    - title: "Operator"
+      desc: ""
+      contents:
+        - core.operator.Operator
+        - types.equation.Eq
+        - arch.compiler.Compiler
+
+    - title: "Finite differences"
+      desc: ""
+      contents:
+        - finite_differences.operators.div
+        - finite_differences.operators.grad
+        - finite_differences.operators.curl
+        - finite_differences.operators.diag
+        - finite_differences.operators.laplace
+        - finite_differences.derivative.Derivative
+        - finite_differences.coefficients.Coefficient
+        - finite_differences.coefficients.Substitutions
+
+    - title: "Utilities"
+      desc: ""
+      contents:
+        - builtins.initializers.smooth
+        - builtins.initializers.initialize_function
+        - builtins.arithmetic.mmin
+        - builtins.arithmetic.mmax
+        - builtins.arithmetic.sum
+        - builtins.arithmetic.norm

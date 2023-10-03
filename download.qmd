@@ -1,0 +1,110 @@
+---
+title: Download and Install Devito
+
+---
+
+There are two main approaches to installing Devito.
+
+- `Docker`, for those looking for the least-friction way to try Devito
+- `Virtual environment`, for those looking to use Devito as part of a project alongside other packages
+
+## Docker
+
+For detailed installation instructions and information on the Devito Docker image library please follow 
+the [docker/README.md](https://github.com/devitocodes/devito/tree/master/docker#readme)
+
+
+## Virtual environment
+
+### venv route
+
+Devito is available as a `pip package` in PyPI.
+
+Create a [Python virtual environment](https://docs.python.org/3/library/venv.html)
+
+```bash
+python3 -m venv <your_venv_name>
+```
+
+Source the newly created `venv`. This needs to be repeated each time a new terminal is open.
+
+```bash
+source <your_venv_name>/bin/activate
+```
+
+To install the `latest Devito release` along with any additional dependencies, follow:
+
+```bash
+   pip install devito
+   # ...or to install additional dependencies:
+   # pip install devito[extras,mpi,nvidia,tests]
+```
+
+[latest Devito release](https://pypi.org/project/devito/#history)
+
+To install the latest Devito development version, without the tutorials, follow:
+
+```bash
+pip install git+https://github.com/devitocodes/devito.git
+# ...or to install additional dependencies:
+# pip install devito[tests,extras,mpi] @ git+https://github.com/devitocodes/devito@master
+```
+
+Additional dependencies:
+
+- extras : optional dependencies for Jupyter notebooks, plotting, benchmarking
+- tests : optional dependencies required for testing infrastructure
+- mpi : optional dependencies for MPI (mpi4py)
+- nvidia : optional dependencies for targetting GPU deployment
+
+[pip package](https://pypi.org/project/devito/)
+
+Note that here, you do not need to get the code via `git clone`.
+Depending on your needs, this might also be the recommended setup for using Devito
+in a production-like environment. However, since some components need to be
+compiled before use, this approach may be sensitive to the C/C++ compilers present
+on your system and the related environment, including what other packages you might
+have installed.
+
+
+### conda route
+
+Please install either [Anaconda](https://www.continuum.io/downloads) or [Miniconda](https://conda.io/miniconda.html).
+Once install, you can create a virtual environment with eithera [Python virtual environment](https://docs.python.org/3/library/venv.html) or a [Conda environment](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/environments.html):
+
+```bash
+# Create new env with the name devito
+conda create --name devito
+# Activate the environment
+conda activate devito
+```
+
+and finally, install Devito along with any extra dependencies:
+
+```bash
+pip install devito
+# ... or to install additional dependencies
+# pip install devito[extras,mpi,nvidia,tests]
+```
+
+### First clone Devito:
+
+```bash
+git clone https://github.com/devitocodes/devito.git
+cd devito
+```
+
+and then install the requirements in your virtual environment (venv or conda):
+
+```bash
+# Install requirements
+pip install -e .
+# ...or to install additional dependencies
+# pip install -e .[extras,mpi,nvidia,tests]
+```
+
+### Facing issues
+
+If you are facing any issues, we are happy to help on Slack_. Also, have a look at our
+list of known [installation issues](https://github.com/devitocodes/devito/wiki/Installation-Issues)
+or join us on [Slack](https://join.slack.com/t/devitocodes/shared_invite/zt-gtd2yxj9-Y31YKk_7lr9AwfXeL2iMFg) to interact with the developers and the community.
