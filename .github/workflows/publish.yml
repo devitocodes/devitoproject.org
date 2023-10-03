@@ -42,14 +42,19 @@ jobs:
 
       - name: Generate tutorial pages
         run: |
+            pip install git+https://github.com/devitocodes/devito.git
             git clone https://github.com/devitocodes/devito.git
             cp -r devito/examples examples
-            rm -rf devito
             pip install git+https://github.com/machow/quartodoc.git
             quartodoc build
 
       - name: Render Website
         run: quarto render
+
+      - name: Cleanup
+        run: |
+          rm -rf devito
+          rm -rf examples
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
