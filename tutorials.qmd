@@ -2,11 +2,15 @@
 title: Tutorials
 ---
 
+We provide an extensive set of tutorials to get familiar with devito's internals, capabilities and use cases. In details we offer the following topics:
 
-I provide here a few tutorials from my main software for quick access and illustrative purposes. Checkout the software pages for additional information.
+- [User API](examples/userapi/00_sympy.html) contains API description notebooks to get started with Devito.
+- [Compiler](examples/compiler/00_index.html) introduces the compiler and the internal representation used to lower the symbolic expression to high performance code.
+- [Performance tips](examples/performance/00_overview.html) introduce the performance optimization knobs exposed to the users.
+- [Seismic modeling and inversion](examples/seismic/tutorials/01_modelling.html) contains a broad set of notebooks that implements various wave equations for modeling and inversion.
+- [CFD](examples/cfd/01_convection.html) offers a full rendering of the original `CFD Python: 12 steps to Navier-Stokes` by  Lorena Barba using Devito.
+- [Finance](examples/finance/bs_ivbp.html) contains an introductory notebook using Devito to model the Black-Scholes equations.
 
-- [Devito API](devitoapi/00_sympy.html) contains API description notebooks to get started wiith [Devito]
-- [Seismic tutorials](devitotutos/01_modelling.html) Examples of seismic propagation and imaging using [Devito]
-
+All those notebooks can be interactively explored in our [binder](https://mybinder.org/v2/gh/devitocodes/devito/master) server as well.
 
 [Devito]:https://github.com/devitocodes/devito
