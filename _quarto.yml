@@ -9,6 +9,7 @@ website:
   search: true
   page-navigation: true
   reader-mode: true
+  back-to-top-navigation: true
 
   twitter-card: 
     site: "@DevitoCodes"
@@ -174,7 +175,9 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: cosmo
+      dark: cyborg
     css: assets/css/main.scss
     toc: true
     link-external-newwindow: True
