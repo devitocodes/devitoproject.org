@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Devito"
+  title: ""
   image: images/logo.png
   repo-url: https://github.com/devitocodes/devitocodes.github.io
   repo-actions: [issue]
@@ -61,6 +61,8 @@ website:
         text: Tutorials
       - text: "API Reference"
         href: api/
+      - text: "FAQ"
+        href: FAQ.qmd
       - file: publications.qmd
         text: "Publications"
       - file: citing.qmd

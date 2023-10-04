@@ -1,6 +1,5 @@
 ---
 title: Download and Install Devito
-
 ---
 
 There are two main approaches to installing Devito.

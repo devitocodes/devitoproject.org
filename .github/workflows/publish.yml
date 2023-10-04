@@ -45,6 +45,9 @@ jobs:
             pip install git+https://github.com/devitocodes/devito.git
             git clone https://github.com/devitocodes/devito.git
             cp -r devito/examples examples
+            cp devito/FAQ.md FAQ.qmd
+            # Remove back to top as integrated in all pages of the website
+            sed -i '/^\[top/d' FAQ.qmd
             pip install git+https://github.com/machow/quartodoc.git
             quartodoc build
 
