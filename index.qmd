@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /
-title: "Devito: a Scalable and portable stencil DSL and compiler"
+title: "Devito: a scalable and portable stencil DSL and compiler"
 bibliography: webbib.bib
 ---
 
@@ -11,7 +11,7 @@ bibliography: webbib.bib
 
 <img src="https://slim.gatech.edu/Website-ResearchWebInfo/Imaging/Fig/rtm-v.gif">
 
-3D TTI imaging on a custom overthrust-salt model [@witte2019RHPCssi]. This image was computed using Devito and high-level abstraction for Cloud Computing. Images courtesy of [SLIM @ Gatech](https://slim.gatech.edu).
+3D TTI imaging on a custom overthrust-salt model [@witte2019RHPCssi]. This image was computed using Devito and high-level abstraction for Cloud Computing. Images courtesy of [SLIM @ GeorgiaTech](https://slim.gatech.edu).
 :::
 
 Devito is a Python package to implement optimized stencil computation (e.g.,

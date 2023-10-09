@@ -15,7 +15,7 @@ quartodoc build
 
 to generate all the API reference files then
 
-```
+```bash
 quarto preview
 ```
 

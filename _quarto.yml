@@ -1,6 +1,9 @@
 project:
   type: website
 
+metadata-files:
+  - _sidebar.yml
+
 website:
   title: ""
   image: images/logo.png
@@ -95,86 +98,6 @@ website:
               - section: "Finance"
                 contents: "examples/finance/*.ipynb"
 
-    - contents:
-        - api/index.qmd
-        - section: "Types"
-          contents:
-          - text: Dimension
-            href: api/types.dimension.Dimension.qmd
-          - text: ConditionalDimension
-            href: api/types.dimension.ConditionalDimension.qmd
-          - text: SubDimension
-            href: api/types.dimension.SubDimension.qmd
-          - text: Grid
-            href: api/types.grid.Grid.qmd
-          - text: SubDomain
-            href: api/types.grid.SubDomain.qmd
-          - text: Constant
-            href: api/types.constant.Constant.qmd
-          - text: Function
-            href: api/types.dense.Function.qmd
-          - text: TimeFunction
-            href: api/types.dense.TimeFunction.qmd
-          - text: VectorFunction
-            href: api/types.tensor.VectorFunction.qmd
-          - text: VectorTimeFunction
-            href: api/types.tensor.VectorTimeFunction.qmd
-          - text: TensorFunction
-            href: api/types.tensor.TensorFunction.qmd
-          - text: TensorTimeFunction
-            href: api/types.tensor.TensorTimeFunction.qmd
-          - text: SparseFunction
-            href: api/types.sparse.SparseFunction.qmd
-          - text: SparseTimeFunction
-            href: api/types.sparse.SparseTimeFunction.qmd
-          - text: PrecomputedSparseFunction
-            href: api/types.sparse.PrecomputedSparseFunction.qmd
-          - text: PrecomputedSparseTimeFunction
-            href: api/types.sparse.PrecomputedSparseTimeFunction.qmd
-
-        - contents:
-            - text: Operator
-              href: api/core.operator.Operator.qmd
-            - text: Eq
-              href: api/types.equation.Eq.qmd
-            - text: Compiler
-              href: api/arch.compiler.Compiler.qmd
-          section: Operator
-        - contents:
-            - text: div
-              href: api/finite_differences.operators.div.qmd
-            - text: grad
-              href: api/finite_differences.operators.grad.qmd
-            - text: curl
-              href: api/finite_differences.operators.curl.qmd
-            - text: diag
-              href: api/finite_differences.operators.diag.qmd
-            - text: laplace
-              href: api/finite_differences.operators.laplace.qmd
-            - text: Derivative
-              href: api/finite_differences.derivative.Derivative.qmd
-            - text: Coefficient
-              href: api/finite_differences.coefficients.Coefficient.qmd
-            - text: Substitutions
-              href: api/finite_differences.coefficients.Substitutions.qmd
-          section: Finite differences
-        - contents:
-            - text: smooth
-              href: api/builtins.initializers.smooth.qmd
-            - text: initialize_function
-              href: api/builtins.initializers.initialize_function.qmd
-            - text: mmin
-              href: api/builtins.arithmetic.mmin.qmd
-            - text: mmax
-              href: api/builtins.arithmetic.mmax.qmd
-            - text: sum
-              href: api/builtins.arithmetic.sum.qmd
-            - text: norm
-              href: api/builtins.arithmetic.norm.qmd
-          section: Utilities
-      id: api
-
-
 format:
   html:
     theme:
@@ -192,55 +115,62 @@ quartodoc:
   style: pkgdown
   dir: api
   package: devito
+  sidebar: _sidebar.yml
+
+  options:
+    signature_name: short
+
   renderer:
     style: markdown
     display_name: name
+
+  dynamic: true
+  
   sections:
-    - title: "devito types"
-      desc: ""
-      contents:
-        - types.dimension.Dimension
-        - types.dimension.ConditionalDimension
-        - types.dimension.SubDimension
-        - types.grid.Grid
-        - types.grid.SubDomain
-        - types.constant.Constant
-        - types.dense.Function
-        - types.dense.TimeFunction
-        - types.tensor.VectorFunction
-        - types.tensor.VectorTimeFunction
-        - types.tensor.TensorFunction
-        - types.tensor.TensorTimeFunction
-        - types.sparse.SparseFunction
-        - types.sparse.SparseTimeFunction
-        - types.sparse.PrecomputedSparseFunction
-        - types.sparse.PrecomputedSparseTimeFunction
+  - title: "Types"
+    desc: ""
+    contents:
+      - Dimension
+      - ConditionalDimension
+      - SubDimension
+      - Grid
+      - SubDomain
+      - Constant
+      - Function
+      - TimeFunction
+      - VectorFunction
+      - VectorTimeFunction
+      - TensorFunction
+      - TensorTimeFunction
+      - SparseFunction
+      - SparseTimeFunction
+      - PrecomputedSparseFunction
+      - PrecomputedSparseTimeFunction
 
-    - title: "Operator"
-      desc: ""
-      contents:
-        - core.operator.Operator
-        - types.equation.Eq
-        - arch.compiler.Compiler
+  - title: "Operator"
+    desc: ""
+    contents:
+      - Operator
+      - Eq
 
-    - title: "Finite differences"
-      desc: ""
-      contents:
-        - finite_differences.operators.div
-        - finite_differences.operators.grad
-        - finite_differences.operators.curl
-        - finite_differences.operators.diag
-        - finite_differences.operators.laplace
-        - finite_differences.derivative.Derivative
-        - finite_differences.coefficients.Coefficient
-        - finite_differences.coefficients.Substitutions
+  - title: "Finite differences"
+    desc: ""
+    contents:
+      - div
+      - grad
+      - curl
+      - diag
+      - laplace
+      - Derivative
+      - Coefficient
+      - Substitutions
 
-    - title: "Utilities"
-      desc: ""
-      contents:
-        - builtins.initializers.smooth
-        - builtins.initializers.initialize_function
-        - builtins.arithmetic.mmin
-        - builtins.arithmetic.mmax
-        - builtins.arithmetic.sum
-        - builtins.arithmetic.norm
+  - title: "Utilities"
+    desc: ""
+    contents:
+      - smooth
+      - initialize_function
+      - mmin
+      - mmax
+      - sum
+      - norm

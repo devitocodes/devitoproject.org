@@ -42,7 +42,8 @@ jobs:
 
       - name: Generate tutorial pages
         run: |
-            pip install git+https://github.com/devitocodes/devito.git
+            pip install --upgrade pip
+            pip install "devito[extras,tests] @ git+https://github.com/devitocodes/devito@master"
             git clone https://github.com/devitocodes/devito.git
             cp -r devito/examples examples
             cp devito/FAQ.md FAQ.qmd
