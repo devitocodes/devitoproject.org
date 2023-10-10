@@ -31,7 +31,7 @@ Symbolic computation is a powerful tool that allows users to:
 Devito is primarily designed to create wave propagation kernels for
 use in seismic inversion problems. A tutorial for the generation of a
 modelling operator using an acoustic wave equation can be found
-[here](https://nbviewer.jupyter.org/github/devitocodes/devito/blob/master/examples/seismic/tutorials/01_modelling.ipynb). A paper
+[here](examples/seismic/tutorials/01_modelling.html). A paper
 outlining the symbolic API and the verification procedures of the acoustic operator can be
 found [here](https://www.geosci-model-dev.net/12/1165/2019/) [@devito-api] and the internals of the compiler are described in [this paper](https://doi.org/10.1145/3374916) [@devito-compiler].
 

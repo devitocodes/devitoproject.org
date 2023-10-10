@@ -12,7 +12,7 @@ or *using* Devito.
 We love to see what the community is doing with Devito and this list also helps
 build up the community. Therefore, we encourage everyone to contribute to this
 list by submitting a pull request to the [Devito website
-repository](https://github.com/devitocodes/devitocodes.github.io).
+repository](https://github.com/devitocodes/devitoproject.org).
 
 If you are the Julia user, the [https://slim.gatech.edu](https://slim.gatech.edu) team (the developers of [JUDI](https://github.com/slimgroup/JUDI.jl)) also has links to the GitHub repo's with the corresponding software for all their publications. 
 

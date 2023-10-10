@@ -9,10 +9,12 @@ website:
   image: images/logo.png
   repo-url: https://github.com/devitocodes/devitocodes.github.io
   repo-actions: [issue]
-  search: true
   page-navigation: true
   reader-mode: true
   back-to-top-navigation: true
+  google-analytics: "UA-66708188-1"
+  search:
+    type: overlay
 
   twitter-card: 
     site: "@DevitoCodes"
@@ -110,7 +112,8 @@ format:
     code-fold: false
     execute: 
       enabled: false
-  
+  ipynb: default
+
 quartodoc:
   style: pkgdown
   dir: api
