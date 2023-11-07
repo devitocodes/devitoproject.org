@@ -137,6 +137,7 @@ quartodoc:
       - ConditionalDimension
       - SubDimension
       - Grid
+      - CustomTopology
       - SubDomain
       - Constant
       - Function
