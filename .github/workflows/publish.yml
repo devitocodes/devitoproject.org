@@ -49,6 +49,8 @@ jobs:
             cp devito/FAQ.md FAQ.qmd
             # Remove back to top as integrated in all pages of the website
             sed -i '/^\[top/d' FAQ.qmd
+            # Install quartodoc
+            pip install griffe==0.38.1
             pip install git+https://github.com/machow/quartodoc.git
             quartodoc build
 
