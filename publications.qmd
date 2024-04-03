@@ -25,6 +25,23 @@ preprints of papers to arXiv as they are submitted. We all know that the
 peer-review process can be a slow (and sometimes painful) experience - why not
 let everyone read and receive kudos for your hard work immediately!
 
+
+## 2024
+
+* G. Bisbas, R. Nelson, M. Louboutin, P. H.J. Kelly, F. Luporini, G. Gorman. _Automated MPI-X code generation for scalable finite-difference solverss_. Poster presented at RICE Energy HPC, 2024. [[poster](presentations/devito-mpi-poster.pdf)]
+
+
+## 2023
+
+* G. Bisbas, _Automated cache optimisations of stencil computations for partial differential equations_. [[phd thesis](https://spiral.imperial.ac.uk/handle/10044/1/105949)]
+
+* G. Bisbas, F. Luporini, R. Nelson, M. Louboutin, E. Caunt, G. Gorman, P H.J. Kelly, _The Devito DSL and Compiler Framework:
+From Symbolic PDEs to HPC Code_ Presented at SIAM-CSE 2023, MS307: PDE Simulations with High-Productivity Languages at the Dawn of Exascale. [[slides](presentations/devito-mpi-cse23.pdf)]
+
+* G. Bisbas, F. Luporini, M. Louboutin, R. Nelson, G. Gorman, P H.J. Kelly, _Automated Temporal Blocking in the Devito DSL
+and Compiler framework_ Presented at SIAM-CSE 2023, MS243: Stencil Computation for Scientific Applications. [[slides](presentations/devito-tb-cse23.pdf)]
+
+
 ## 2022
 
 * Jean-Francois Aubry, Oscar Bates, Christian Boehm, Kim Butts Pauly, Douglas Christensen, Carlos Cueto, Pierre Gelat, Lluis Guasch, Jiri Jaros, Yun Jing, Rebecca Jones, Ningrui Li, Patrick Marty, Hazael Montanaro, Esra Neufeld, Samuel Pichardo, Gianmarco Pinton, Aki Pulkkinen, Antonio Stanziola, Axel Thielscher, Bradley Treeby, Elwin van't Wout _Benchmark problems for transcranial ultrasound simulation: Intercomparison of compressional wave models_ [arxiv](https://arxiv.org/abs/2202.04552)
