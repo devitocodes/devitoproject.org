@@ -28,7 +28,7 @@ let everyone read and receive kudos for your hard work immediately!
 
 ## 2024
 
-* G. Bisbas, R. Nelson, M. Louboutin, P. H.J. Kelly, F. Luporini, G. Gorman. _Automated MPI-X code generation for scalable finite-difference solverss_. Poster presented at RICE Energy HPC, 2024. [[poster](presentations/devito-mpi-poster.pdf)]
+* G. Bisbas, R. Nelson, M. Louboutin, P. H.J. Kelly, F. Luporini, G. Gorman. _Automated MPI-X code generation for scalable finite-difference solverss_. Poster presented at RICE Energy HPC, 2024. [[poster](presentations/devito-mpi-poster-rice24.pdf)]
 
 
 ## 2023
