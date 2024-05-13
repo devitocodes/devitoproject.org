@@ -2,7 +2,7 @@
 title: "Contact us"
 ---
 
-* You are encouraged to engage with the Devito user/dev community on [Slack](https://join.slack.com/t/devitocodes/shared_invite/zt-gtd2yxj9-Y31YKk_7lr9AwfXeL2iMFg)
+* You are encouraged to engage with the Devito user/dev community on [Slack](https://join.slack.com/t/devitocodes/shared_invite/zt-2hgp6891e-jQDcepOWPQwxL5JJegYKSA)
 * If you would like to contribute to Devito please see [Contributing](https://github.com/devitocodes/devito/blob/master/CONTRIBUTING.md)
 * For anything else please contact [Gerard Gorman](mailto:g.gorman@imperial.ac.uk)
 
@@ -28,4 +28,4 @@ Chinese students are encouraged to apply via the [China Scholarship Council](htt
 
 Each year we accept MSc students from [Applied Computational Science and Engineering](https://www.imperial.ac.uk/study/pg/earth-science/computational-science/) and the Department of Computing (co-supervised with Prof Paul Kelly) for their dissertation research. Topics range from Compiler technologies to applications using simulation and inversion.
 
-If you have any questions then either email [G. Gorman](mailto:g.gorman@imperial.ac.uk) or reach out to us on [our slack channel](https://join.slack.com/t/devitocodes/shared_invite/zt-gtd2yxj9-Y31YKk_7lr9AwfXeL2iMFg).
+If you have any questions then either email [G. Gorman](mailto:g.gorman@imperial.ac.uk) or reach out to us on [our slack channel](https://join.slack.com/t/devitocodes/shared_invite/zt-2hgp6891e-jQDcepOWPQwxL5JJegYKSA).
