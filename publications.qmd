@@ -34,6 +34,8 @@ let everyone read and receive kudos for your hard work immediately!
 
 * G. Bisbas, R. Nelson, M. Louboutin, P. H.J. Kelly, F. Luporini, G. Gorman. _Automated MPI-X code generation for scalable finite-difference solvers_. Poster presented at RICE Energy HPC, 2024. [[poster](presentations/devito-mpi-poster-rice24.pdf)]
 
+* Z. Leibowitz, R. Nelson, F. Luporini, M. Louboutin, M. G. Knepley, L. Mitchell, G. Gorman. _Automatic PETSc Code Generation For Finite Differences_. Poster presented at SIAM PP24. [[poster](presentations/zoe-siampp24-poster.pdf)]
+
 
 
 
