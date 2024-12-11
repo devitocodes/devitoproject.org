@@ -32,6 +32,8 @@ let everyone read and receive kudos for your hard work immediately!
 
 * G. Bisbas, A. Lydike, E. Bauer, N. Brown, M. Fehr, L. Mitchell, G. Rodriguez-Canal, M. Jameson, P. H.J. Kelly, M. Steuwer, T. Grosser. _A shared compilation stack for distributed-memory parallelism in stencil DSLs_. Poster presented at ASPLOS'24, 2024. [[poster](presentations/bisbas_asplos24_poster.pdf)]
 
+* G. Bisbas, R. Nelson, M. Louboutin, F. Luporini, P. H.J. Kelly, G. Gorman. _Automated MPI-X code generation for scalable finite-difference solvers_. under review, 2024. [arxiv](https://arxiv.org/abs/2312.13094), [poster](presentations/devito-mpiX-poster.pdf)
+
 * G. Bisbas, R. Nelson, M. Louboutin, P. H.J. Kelly, F. Luporini, G. Gorman. _Automated MPI-X code generation for scalable finite-difference solvers_. Poster presented at RICE Energy HPC, 2024. [[poster](presentations/devito-mpi-poster-rice24.pdf)]
 
 * Z. Leibowitz, R. Nelson, F. Luporini, M. Louboutin, M. G. Knepley, L. Mitchell, G. Gorman. _Automatic PETSc Code Generation For Finite Differences_. Poster presented at SIAM PP24. [[poster](presentations/zoe-siampp24-poster.pdf)]

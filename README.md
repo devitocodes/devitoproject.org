@@ -7,7 +7,7 @@ This repo contains the source files and deployment for [devitoproject.org](devit
 - [quarto](https://quarto.org/) for the website itself. See their documentation for installation and specifics. This is built on top of pandoc and supports all pandoc standard syntax plus additional scientific writing tools.
 
 
-The webiste is fully described through the markdown `.qmd` files for the pages and `_quarto.yml` for the layout. You can also preview the website locally when making changes running 
+The website is fully described through the markdown `.qmd` files for the pages and `_quarto.yml` for the layout. You can also preview the website locally when making changes running 
 
 ```bash
 quartodoc build
