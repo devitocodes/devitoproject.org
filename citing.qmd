@@ -41,3 +41,16 @@ following papers.
   doi = {10.5194/gmd-12-1165-2019}
 }
 ```
+
+Additionally, if you use Devito for distributed runs, you may want to cite the following paper as well:
+```bibtex
+@misc{bisbas2024automatedmpixcodegeneration,
+      title={Automated MPI-X code generation for scalable finite-difference solvers}, 
+      author={George Bisbas and Rhodri Nelson and Mathias Louboutin and Fabio Luporini and Paul H. J. Kelly and Gerard Gorman},
+      year={2024},
+      eprint={2312.13094},
+      archivePrefix={arXiv},
+      primaryClass={cs.DC},
+      url={https://arxiv.org/abs/2312.13094}, 
+}
+```
