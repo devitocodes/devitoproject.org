@@ -178,3 +178,12 @@ quartodoc:
       - mmax
       - sum
       - norm
+
+  - title: "Exceptions"
+    desc: ""
+    contents:
+      - DevitoError
+      - CompilationError
+      - InvalidArgument
+      - InvalidOperator
+      - ExecutionError
