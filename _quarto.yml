@@ -181,6 +181,7 @@ quartodoc:
 
   - title: "Exceptions"
     desc: ""
+    package: devito.exceptions
     contents:
       - DevitoError
       - CompilationError
