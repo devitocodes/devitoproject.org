@@ -32,8 +32,7 @@ let everyone read and receive kudos for your hard work immediately!
 
 * Z. Leibowitz, R. Nelson, F. Luporini, M. Louboutin, M. Knepley, L. Mitchell, J. Betteridge, E. Caunt, G. Bisbas, M. Piggott, G. Gorman. _Automatic Generation of Matrix-Free Routines for PDE solvers with Devito via PETSc_. Presented at PETSc User Meeting 2025. [[slides](presentations/zoe-petsc-2025.pdf)]
 
-* G. Bisbas, R. Nelson, M. Louboutin, F. Luporini, P. H.J. Kelly, G. Gorman. _Automated MPI-X code generation for scalable finite-difference solvers_. under review, 2025. [[arxiv](https://arxiv.org/abs/2312.13094)], [[slides](presentations/ipdps25_mpix_bisbas.pdf)], [[poster](presentations/devito-mpiX-poster.pdf)]
-
+* G. Bisbas, R. Nelson, M. Louboutin, F. Luporini, P. H.J. Kelly, G. Gorman. _Automated MPI-X code generation for scalable finite-difference solvers_. Accepted at IPDPS'25, 2025. [[arxiv](https://arxiv.org/abs/2312.13094)], [[slides](presentations/ipdps25_mpix_bisbas.pdf)], [[poster](presentations/devito-mpiX-poster.pdf)] (Finalist for Best Open-Source Contribution Award)
 
 ## 2024
 
