@@ -32,14 +32,11 @@ let everyone read and receive kudos for your hard work immediately!
 
 * Z. Leibowitz, R. Nelson, F. Luporini, M. Louboutin, M. Knepley, L. Mitchell, J. Betteridge, E. Caunt, G. Bisbas, M. Piggott, G. Gorman. _Automatic Generation of Matrix-Free Routines for PDE solvers with Devito via PETSc_. Presented at PETSc User Meeting 2025. [[slides](presentations/zoe-petsc-2025.pdf)]
 
+* G. Bisbas, R. Nelson, M. Louboutin, F. Luporini, P. H.J. Kelly, G. Gorman. _Automated MPI-X code generation for scalable finite-difference solvers_. Accepted at IPDPS'25, 2025. [[arxiv](https://arxiv.org/abs/2312.13094)], [[slides](presentations/ipdps25_mpix_bisbas.pdf)], [[poster](presentations/devito-mpiX-poster.pdf)] (Finalist for Best Open-Source Contribution Award)
 
 ## 2024
 
-* G. Bisbas, A. Lydike, E. Bauer, N. Brown, M. Fehr, L. Mitchell, G. Rodriguez-Canal, M. Jameson, P. H.J. Kelly, M. Steuwer, T. Grosser. _A shared compilation stack for distributed-memory parallelism in stencil DSLs_. 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3 (ASPLOS '24). [paper](https://dl.acm.org/doi/10.1145/3620666.3651344)
-
-* G. Bisbas, A. Lydike, E. Bauer, N. Brown, M. Fehr, L. Mitchell, G. Rodriguez-Canal, M. Jameson, P. H.J. Kelly, M. Steuwer, T. Grosser. _A shared compilation stack for distributed-memory parallelism in stencil DSLs_. Poster presented at ASPLOS'24, 2024. [[poster](presentations/bisbas_asplos24_poster.pdf)]
-
-* G. Bisbas, R. Nelson, M. Louboutin, F. Luporini, P. H.J. Kelly, G. Gorman. _Automated MPI-X code generation for scalable finite-difference solvers_. under review, 2024. [arxiv](https://arxiv.org/abs/2312.13094), [poster](presentations/devito-mpiX-poster.pdf)
+* G. Bisbas, A. Lydike, E. Bauer, N. Brown, M. Fehr, L. Mitchell, G. Rodriguez-Canal, M. Jameson, P. H.J. Kelly, M. Steuwer, T. Grosser. _A shared compilation stack for distributed-memory parallelism in stencil DSLs_. 29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 3 (ASPLOS '24). [[paper](https://dl.acm.org/doi/10.1145/3620666.3651344)], [[slides](https://github.com/georgebisbas/georgebisbas/blob/main/talks/asplos24_xdsl_mpi.pdf)], [[poster](presentations/bisbas_asplos24_poster.pdf)]
 
 * G. Bisbas, R. Nelson, M. Louboutin, P. H.J. Kelly, F. Luporini, G. Gorman. _Automated MPI-X code generation for scalable finite-difference solvers_. Poster presented at RICE Energy HPC, 2024. [[poster](presentations/devito-mpi-poster-rice24.pdf)]
 
@@ -121,7 +118,7 @@ Ultrasound in Medicine & Biology, Volume 48, Issue 10, 2022, Pages 1995-2008 [pa
 
 * Ali M Alfaraj and Eric Verschuur and Felix J Herrmann _Residual statics correction without NMO—A rank-based approach_ First International Meeting for Applied Geoscience & Energy, 2565-2569, 2021 [paper](https://library.seg.org/doi/abs/10.1190/segam2021-3583455.1)
 
-* George Bisbas, Fabio Luporini, Mathias Louboutin, Rhodri Nelson, Gerard Gorman, and Paul HJ Kelly. Temporal blocking of finite-difference stencil operators with sparse" off-the-grid" sources. In 2021 IEEE International Parallel and Distributed Processing Symposium (IPDPS) (pp. 497-506). IEEE. [[Proceedings](https://ieeexplore.ieee.org/abstract/document/9460483)]
+* George Bisbas, Fabio Luporini, Mathias Louboutin, Rhodri Nelson, Gerard Gorman, and Paul HJ Kelly. Temporal blocking of finite-difference stencil operators with sparse" off-the-grid" sources. In 2021 IEEE International Parallel and Distributed Processing Symposium (IPDPS) (pp. 497-506). IEEE. [[Proceedings](https://ieeexplore.ieee.org/abstract/document/9460483)][[slides](presentations/ipdps21_bisbas_temporal.pdf)]
 
 * G. Bisbas, F. Luporini, M. Louboutin, R. Nelson, G. Gorman, P. Kelly _Temporal blocking for wave propagation with sparse off-the-grid sources_ Presented at [High performance computing in Oil and Gas at Rice University 2021](http://rice2021oghpc.rice.edu/). [[slides](presentations/bisbas_rice2021.pdf)] [[video](https://www.youtube.com/watch?v=-yHL9MKla7c)]
 
