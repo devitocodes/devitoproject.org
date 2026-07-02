@@ -85,20 +85,28 @@ website:
             href: tutorials.qmd
             contents:
               - section: "User API"
-                contents: "examples/userapi/*.ipynb"
+                contents:
+                  - auto: "examples/userapi/*.ipynb"
               - section: "Compiler"
-                contents: "examples/compiler/*.ipynb"
+                contents:
+                  - auto: "examples/compiler/*.ipynb"
               - section: "Performance tips"
-                contents: "examples/performance/*.ipynb"
+                contents:
+                  - auto: "examples/performance/*.ipynb"
               - section: "Seismic modeling and inversion"
                 contents:
                   - auto: "examples/seismic/tutorials/*.ipynb"
                   - auto: "examples/seismic/self_adjoint/*.ipynb"
                   - "examples/seismic/acoustic/accuracy.ipynb"
               - section: "CFD"
-                contents: "examples/cfd/*.ipynb"
+                contents: 
+                  - auto: "examples/cfd/*.ipynb"
               - section: "Finance"
-                contents: "examples/finance/*.ipynb"
+                contents: 
+                  - auto: "examples/finance/*.ipynb"
+              - section: "MPI"
+                contents:
+                  - auto: "examples/mpi/*.ipynb"
 
 format:
   html:

@@ -3,7 +3,7 @@ title: "Contact us"
 ---
 
 * You are encouraged to engage with the Devito user/dev community on [Slack](https://join.slack.com/t/devitocodes/shared_invite/zt-2hgp6891e-jQDcepOWPQwxL5JJegYKSA)
-* If you would like to contribute to Devito please see [Contributing](https://github.com/devitocodes/devito/blob/master/CONTRIBUTING.md)
+* If you would like to contribute to Devito please see [Contributing](https://github.com/devitocodes/devito/blob/main/CONTRIBUTING.md)
 * For anything else please contact [Gerard Gorman](mailto:g.gorman@imperial.ac.uk)
 
 # Opportunities
